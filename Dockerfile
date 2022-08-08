@@ -1,4 +1,4 @@
-FROM confluentinc/cp-kafka-connect:6.2.2
+FROM confluentinc/cp-kafka-connect:7.2.1
 
 COPY build.sh .
 

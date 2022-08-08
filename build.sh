@@ -1,5 +1,5 @@
 confluent-hub install --no-prompt mongodb/kafka-connect-mongodb:latest
-confluent-hub install --no-prompt confluentinc/kafka-connect-hdfs:5.5.2
+confluent-hub install --no-prompt confluentinc/kafka-connect-hdfs3:1.1.18
 
 mkdir ~/connector 
 mkdir /usr/share/java/kafka-connect-mqtt
